@@ -1,0 +1,14 @@
+# En-têtes Cloudflare Pages : cache long pour les ressources versionnées (hash dans le nom) et les médias
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/videos/*
+  Cache-Control: public, max-age=2592000
+
+/fichiers/*
+  Cache-Control: public, max-age=86400
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
