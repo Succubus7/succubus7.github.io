@@ -1,5 +1,2 @@
 User-agent: *
-Allow: /
-Disallow: /merci
-
-Sitemap: https://p-pe.fr/sitemap-index.xml
+Disallow: /
